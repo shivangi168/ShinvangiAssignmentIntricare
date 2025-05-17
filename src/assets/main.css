@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f7f8fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #app {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    padding: 32px 40px 40px 40px;
+  }
+  
+  form {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+    align-items: center;
+  }
+  
+  form input {
+    padding: 8px 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background: #6c63ff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 18px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  form button[type="button"] {
+    background: #e0e0e0;
+    color: #333;
+  }
+  
+  form button:hover {
+    background: #554ee2;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 18px;
+    background: #fafbfc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  th, td {
+    padding: 12px 10px;
+    text-align: left;
+  }
+  
+  th {
+    background: #f0f1f6;
+    font-weight: 600;
+  }
+  
+  tr:nth-child(even) {
+    background: #f7f8fa;
+  }
+  
+  img {
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+  
+  button {
+    margin-right: 6px;
+  }
+  
+  input[type="search"], select {
+    padding: 8px 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 700px) {
+    #app {
+      padding: 10px;
+    }
+    form {
+      flex-direction: column;
+      gap: 8px;
+    }
+    table, th, td {
+      font-size: 0.95rem;
+    }
+  }
